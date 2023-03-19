@@ -29,7 +29,13 @@
 
 
 @media (max-width: 768px) {
- 
+    .transaction-box__filter .submit {
+        width: initial;
+        padding: 8px 20px;
+        min-height: 38px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
 }
 
 
@@ -81,6 +87,44 @@
     }
     .mbl-100\% {
         width: 100%;
+    }
+
+
+    .my-card__wrapper {
+        padding: 17px 15px;
+        border-radius: 12px;
+    }
+    .my-card__wrapper h4 {
+        font-size: 14px;
+    }
+    .my-card__title .m-c-t__status {
+        gap: 7px;
+        font-size: 14px;
+    }
+    .checkbox-switch {
+        height: 16px;
+        width: 32px;
+    }
+    .checkbox-switch::after {
+        height: 12px;
+    }
+    .my-card__title .right .button {
+        padding: 10px 18px;
+        min-height: 38px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    .my-card__balance-view__title {
+        padding: 14px 15px;
+    }
+    .my-card__balance-view__body__inner {
+        padding: 15px 15px;
+    }
+    .my-card__bt-buttons {
+        flex-direction: column;
+    }
+    .my-card__title .right {
+        gap: 11px;
     }
 }
 

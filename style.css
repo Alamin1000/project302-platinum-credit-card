@@ -15,7 +15,7 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #F5F5F5;
   color: #6D6D6D;
   overflow-x: hidden;
   word-wrap: break-word;
@@ -404,6 +404,15 @@ p:last-child{
 .m-dash__item--bd-blue {
   border-left: var(--i-border-width) solid var(--theme__color4);
 }
+.m-dash__item--bg-green-light {
+  background: #E9F7EC;
+}
+.m-dash__item--bg-yellow-light {
+  background: #FFF8E5;
+}
+.m-dash__item--bg-blue-light {
+  background: #E9F3FE;
+}
 .m-dash__item__icon {
   width: 60px;
   height: 60px;
@@ -478,6 +487,13 @@ p:last-child{
   --bs-gutter-x: 15px;
   --bs-gutter-y: var(--bs-gutter-x);
 }
+.label-x {
+  font-size: 14px;
+  margin: 0 0 6px;
+  width: 100%;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 0.8);
+}
 .single-input-x {
   width: 100%;
 }
@@ -492,6 +508,16 @@ p:last-child{
   border: 1px solid #D0D5DD;
   color: #B3B7C2;
   width: 100%;
+}
+.input-x.nice-select {
+  display: flex;
+  align-items: center;
+}
+.input-x.nice-select::after {
+  height: 7px;
+  width: 7px;
+  margin-top: -5px;
+  border-width: 1px;
 }
 .input-x.input-x-drop-toggle {
   display: flex;
@@ -544,6 +570,9 @@ p:last-child{
   padding: 24px;
   border-radius: 15px;
   background: #fff;
+}
+.m-table-box--bordered {
+  border: 1px solid rgba(51, 51, 51, 0.2);
 }
 .m-table-box__title {
   margin: 0 0 15px;
@@ -660,6 +689,9 @@ p:last-child{
 .mc-table-str-1 .mc__column {
   width: 20%;
 }
+.mc-table-str-1 .mc__column:last-child {
+  justify-content: flex-end;
+}
 
 
 /* mc-table-str-2 */
@@ -718,5 +750,113 @@ p:last-child{
 }
 .m-pagination .arr-button:hover {
   background: var(--theme__color1);
+  color: #fff;
 }
 /* ---m-table-box---end */
+
+
+
+/* ---my-card__wrapper--- */
+.my-card__wrapper {
+  padding: 24px;
+  border-radius: 15px;
+  background: #fff;
+}
+.my-card__title {
+  margin: 0 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-card__title .left {
+
+}
+.my-card__title h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.my-card__title .right {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+.my-card__title .m-c-t__status {
+  gap: 9px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  display: flex;
+}
+.my-card__title .m-c-t__status .checkbox {
+
+}
+.my-card__title .right .button {
+
+}
+.my-card__wrapper h4 {
+  font-size: 18px;
+}
+
+.my-card__balance-view {
+  background: rgba(1, 111, 185, 0.1);
+  border-radius: 8px;
+}
+.my-card__balance-view__title {
+  padding: 19px 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-card__balance-view__title h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.my-card__balance-view__title .ind-icon {
+  transition: 0.3s;
+}
+.my-card__balance-view__title:not(.collapsed) .ind-icon {
+  transform: rotate(-90deg);
+}
+.my-card__balance-view__body {
+
+}
+.my-card__balance-view__body__inner {
+  padding: 21px 21px;
+  border-top: 1px solid #fff;
+}
+.my-card__balance-view__body p {
+
+}
+
+
+.my-card__bottom {
+  padding-top: 19px;
+  margin-top: 30px;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+.my-card__bt-buttons {
+  gap: 17px;
+  display: flex;
+}
+.my-card__bt-buttons .button {
+
+}
+/* ---my-card__wrapper---end */
+
+
+
+/* ---transaction-box__wrapper--- */
+.transaction-box__wrapper {
+  padding: 24px;
+  border-radius: 15px;
+  background: #fff;
+}
+.transaction-box__filter {
+
+}
+.transaction-box__filter .submit {
+  width: 100%;
+  padding: 11px 30px;
+  min-height: 44px;
+} 
+/* ---transaction-box__wrapper---end */
