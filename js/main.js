@@ -54,6 +54,17 @@ $(document).ready(function () {
     $.scrollUp();
   });
 
+  $(".password-field-toggler").click(function () {
+    $(this).toggleClass("open");
+    $(this).find("i").toggleClass("fa-eye fa-eye-slash");
+    var thisInput = $(this).siblings("input");
+    if (thisInput.attr("type") == "password") {
+      $(thisInput).attr("type", "text");
+    } else {
+      $(thisInput).attr("type", "password");
+    }
+  });
+
   // nice-select
   $(".nice-select").niceSelect();
 

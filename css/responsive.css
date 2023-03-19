@@ -143,6 +143,67 @@
         padding: 17px 15px;
         border-radius: 12px;
     }
+
+    .profile__info-form__bottom .button {
+        padding: 6px 20px;
+        font-size: 12px;
+        min-height: 38px;
+    }
+
+    .sign-form__title .s__logo {
+        margin: 0 0 20px;
+        width: 130px;
+    }
+    .sign-form__title h3 {
+        font-size: 24px;
+        margin: 0 0 12px;
+    }
+    .sign-form__main {
+        --bs-gutter-x: 13px;
+    }
+    .sign-form__title {
+        margin: 0 0 23px;
+    }
+    .sign-form {
+        padding: 50px 15px;
+    }
+    .sign-form__title p {
+        font-size: 14px;
+    }
+
+
+    .t_u_a_modal-content {
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .t_u_a_modal-content h2 {
+        font-size: 18px;
+        margin: 0 0 15px;
+    }
+    .t_u_a_modal-content h3 {
+        font-size: 16px;
+        margin: 0 0 8px;
+    }
+    .t_u_a_modal-content p {
+        margin: 0 0 19px;
+        font-size: 13px;
+    }
+    .t_u_a_modal-content h4 {
+        font-size: 14.5px;
+    }
+    .t_u_a_modal-content .r-bx {
+        margin: 0 0 13px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .t_u_a_modal-content .r-bx p {
+        margin: 0 0 8px;
+    }
+    .t_u_a_modal-content .button {
+        min-height: 36px;
+        font-size: 12px;
+        padding: 5px 16px;
+    }
 }
 
 
@@ -175,5 +236,11 @@
 
     .profile__core p {
         font-size: 12px;
+    }
+
+
+    .t_u_a_modal-content {
+        padding: 18px 15px;
+        border-radius: 10px;
     }
 }

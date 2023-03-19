@@ -502,7 +502,11 @@
                             <!-- single-input-end -->
                             <div class="col-12">
                               <div class="d-flex justify-content-end">
-                                <a href="#" class="default-button mbl-100%"
+                                <a
+                                  href="#"
+                                  class="default-button mbl-100%"
+                                  data-bs-toggle="modal"
+                                  data-bs-target="#topupAgreeModal"
                                   >Top Up Card</a
                                 >
                               </div>
@@ -715,6 +719,43 @@
       <!-- main end -->
     </div>
     <!-- main-wrap -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade t_u_a_modal"
+      id="topupAgreeModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+          <div class="t_u_a_modal-content">
+            <h2 class="color-theme1">
+              Please Read The Comments Below Carefully
+            </h2>
+            <h3>You Have Selected Regular Top Up</h3>
+            <p>
+              By Selecting Regular Top Up Option You Will Receive the Payment
+            </p>
+            <h3 class="pb-1">UPTO 72 Hours</h3>
+            <div class="r-bx">
+              <p>If You Need Funds Immediately, Please Use The</p>
+              <h4 class="mb-0">EMERGENCY TOP UP Option</h4>
+            </div>
+            <p>
+              <span class="fw-500">NOTE :</span> Please Send The Payment Within
+              Next 30 Minutes If You Send The Payment After 30 Minutes, Please
+              Contact Admin
+            </p>
+            <div class="d-flex justify-content-end">
+              <a data-bs-dismiss="modal" href="#" class="default-button button"
+                >I Agree</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- js -->
     <script src="js/jquery-3.6.0.min.js"></script>
