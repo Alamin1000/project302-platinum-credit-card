@@ -52,7 +52,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="my-card.html" class="active">
+                      <a href="my-card.html">
                         <div class="icon">
                           <img src="images/icon-card.svg" alt="" />
                         </div>
@@ -68,7 +68,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="settlements-history.html">
+                      <a href="settlements-history.html" class="active">
                         <div class="icon">
                           <img src="images/icon-list.svg" alt="" />
                         </div>
@@ -115,7 +115,7 @@
                 <div class="mobile-bar__menu">
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a href="index.html" class="active">
                         <div class="icon">
                           <svg
                             width="28"
@@ -134,7 +134,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="my-card.html" class="active">
+                      <a href="my-card.html">
                         <div class="icon">
                           <svg
                             width="28"
@@ -235,110 +235,114 @@
                 <!-- main__body -->
                 <div class="main__body">
                   <div class="main__body__inner">
-                    <!-- m-hello-row -->
-                    <div class="m-hello-row mb-default">
-                      <h2 class="h2 mb-0">Client Code: 323717</h2>
-                    </div>
-                    <!-- m-hello-row-end -->
-
-                    <!-- my-card__wrapper -->
-                    <div class="my-card__wrapper">
-                      <div class="my-card__title">
+                    <!-- m-table-box -->
+                    <div class="m-table-box mb-default">
+                      <div class="m-table-box__title">
                         <div class="left">
-                          <h4 class="mb-0">IdPlastico: 25305</h4>
+                          <h4 class="">Settlements History</h4>
+                          <div class="ex-button">
+                            <img
+                              src="images/export-down.svg"
+                              alt=""
+                              class="ex-down"
+                            />
+                            <span class="txt">Export</span>
+                          </div>
                         </div>
                         <div class="right">
-                          <div class="m-c-t__status">
-                            <span class="txt">Status</span>
+                          <div class="search-x">
+                            <i class="far fa-search search-icon"></i>
                             <input
-                              type="checkbox"
-                              class="checkbox-switch checkbox"
-                              checked
+                              type="text"
+                              class="input"
+                              placeholder="Search"
                             />
                           </div>
-                          <a href="#" class="button default-button"
-                            >Activated</a
-                          >
                         </div>
                       </div>
-
-                      <div class="my-card__balance-view mb-3">
-                        <div
-                          class="my-card__balance-view__title collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#my-card__balance-view__body"
-                        >
-                          <h4 class="mb-0">View Balance</h4>
-                          <i class="far fa-chevron-down ind-icon"></i>
-                        </div>
-                        <div
-                          class="my-card__balance-view__body collapse"
-                          id="my-card__balance-view__body"
-                        >
-                          <div class="my-card__balance-view__body__inner">
-                            <!-- m-dash-row -->
-                            <div class="m-dash-row row g-4">
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/green-dolor.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Available Balance</h5>
-                                  </div>
-                                </div>
+                      <div class="mc-table-outer mc-table-str-4">
+                        <div class="mc-table">
+                          <div class="mc-table__title">
+                            <div class="mc-table__row">
+                              <div class="mc__column">
+                                <span class="txt">ID</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
                               </div>
-                              <!-- m-dash__item-end -->
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/yellow-card.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Total balance</h5>
-                                  </div>
-                                </div>
+                              <div class="mc__column">
+                                <span class="txt">NAME ON CARD</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
                               </div>
-                              <!-- m-dash__item-end -->
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/blue-chart.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Outstanding balance</h5>
-                                  </div>
-                                </div>
+                              <div class="mc__column">
+                                <span class="txt">COMPANY</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
                               </div>
-                              <!-- m-dash__item-end -->
+                              <div class="mc__column">
+                                <span class="txt">CARDS DIGITS</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
+                              </div>
+                              <div class="mc__column">
+                                <span class="txt">TX ID</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
+                              </div>
+                              <div class="mc__column">
+                                <span class="txt">AMOUNT</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
+                              </div>
+                              <div class="mc__column">
+                                <span class="txt">ORIGIN CURRENCY</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
+                              </div>
+                              <div class="mc__column">
+                                <span class="txt">STATUS</span>
+                                <i class="far fa-arrow-up status-arrow"></i>
+                                <a href="#" class="more"
+                                  ><i class="far fa-ellipsis-v"></i
+                                ></a>
+                              </div>
                             </div>
-                            <!-- m-dash-row-end -->
+                          </div>
+                          <div class="mc-table__body">
+                            <p class="no-row-flag">NO ROWS</p>
+                            <div class="mc-table__row">
+                              <div class="mc__column"></div>
+                            </div>
                           </div>
                         </div>
                       </div>
-
-                      <h4 class="fw-400">IdPlastico: 25305</h4>
-
-                      <div class="my-card__bottom">
-                        <div class="my-card__bt-buttons">
-                          <a href="#" class="default-button button"
-                            >View Settled Transaction</a
-                          >
-                          <a
-                            href="#"
-                            class="default-button button default-button--bordered"
-                            >View Floating Transaction</a
-                          >
+                      <div class="m-pagination">
+                        <p>0-0 of 0</p>
+                        <div class="buttons">
+                          <a href="#" class="arr-button"
+                            ><i class="far fa-chevron-left"></i
+                          ></a>
+                          <a href="#" class="arr-button"
+                            ><i class="far fa-chevron-right"></i
+                          ></a>
                         </div>
                       </div>
                     </div>
-                    <!-- my-card__wrapper-end -->
+                    <!-- m-table-box-end -->
                   </div>
                 </div>
                 <!-- main__body-end -->

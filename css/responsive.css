@@ -20,6 +20,17 @@
     .sidebar__toggler {
         display: block;
     }
+
+    #scrollUp {
+        display: none !important;
+    }
+    .mobile-bar {
+        display: block;
+    }
+
+    .main__body__inner {
+        padding-bottom: 130px !important;
+    }
 }
 
 
@@ -126,10 +137,20 @@
     .my-card__title .right {
         gap: 11px;
     }
+
+
+    .profile-box-cont {
+        padding: 17px 15px;
+        border-radius: 12px;
+    }
 }
 
 
 @media (max-width: 370px) {
+    .mobile-bar {
+        padding: 15px 0;
+    }
+
     .m-dash__item {
         padding: 18px 14px;
         gap: 15px;
@@ -150,5 +171,9 @@
     }
     .main__body__inner {
         padding: 20px 15px;
+    }
+
+    .profile__core p {
+        font-size: 12px;
     }
 }

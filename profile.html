@@ -44,7 +44,7 @@
                 <div class="sidebar-menu">
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a href="index.html" class="active">
                         <div class="icon">
                           <img src="images/icon-dashboard.svg" alt="" />
                         </div>
@@ -52,7 +52,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="my-card.html" class="active">
+                      <a href="my-card.html">
                         <div class="icon">
                           <img src="images/icon-card.svg" alt="" />
                         </div>
@@ -134,7 +134,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="my-card.html" class="active">
+                      <a href="my-card.html">
                         <div class="icon">
                           <svg
                             width="28"
@@ -172,7 +172,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="profile.html">
+                      <a href="profile.html" class="active">
                         <div class="icon">
                           <svg
                             width="28"
@@ -237,108 +237,139 @@
                   <div class="main__body__inner">
                     <!-- m-hello-row -->
                     <div class="m-hello-row mb-default">
-                      <h2 class="h2 mb-0">Client Code: 323717</h2>
+                      <h2 class="h2 mb-0">Personal information</h2>
                     </div>
                     <!-- m-hello-row-end -->
 
-                    <!-- my-card__wrapper -->
-                    <div class="my-card__wrapper">
-                      <div class="my-card__title">
-                        <div class="left">
-                          <h4 class="mb-0">IdPlastico: 25305</h4>
-                        </div>
-                        <div class="right">
-                          <div class="m-c-t__status">
-                            <span class="txt">Status</span>
-                            <input
-                              type="checkbox"
-                              class="checkbox-switch checkbox"
-                              checked
-                            />
+                    <!-- profile__row -->
+                    <div class="profile-row row">
+                      <div class="col-lg-4">
+                        <div class="profile-box-cont mb-default">
+                          <div class="profile__core">
+                            <h3>Liseth E</h3>
+                            <p>
+                              <a
+                                href="email:espinosalisethlorena2811@gmail.com"
+                                class="color-theme1 fw-500"
+                                >espinosalisethlorena2811@gmail.com</a
+                              >
+                            </p>
                           </div>
-                          <a href="#" class="button default-button"
-                            >Activated</a
-                          >
+                        </div>
+                        <div class="profile-box-cont mb-lg-0 mb-default">
+                          <div class="profile-info-buttons">
+                            <a
+                              href="#"
+                              class="default-button default-button--s-icon button"
+                            >
+                              <div class="icon">
+                                <i class="fas fa-user"></i>
+                              </div>
+                              <span class="txt">Personal information</span>
+                            </a>
+                            <a
+                              href="#"
+                              class="default-button default-button--s-icon button default-button--light"
+                            >
+                              <div class="icon">
+                                <i class="far fa-edit"></i>
+                              </div>
+                              <span class="txt">Edit information</span>
+                            </a>
+                            <a
+                              href="#"
+                              class="default-button default-button--s-icon button default-button--light"
+                            >
+                              <div class="icon">
+                                <i class="far fa-lock"></i>
+                              </div>
+                              <span class="txt">Change Password</span>
+                            </a>
+                            <a
+                              href="#"
+                              class="default-button default-button--n-icon button-l-out default-button--bordered"
+                            >
+                              <i class="far fa-sign-out"></i>
+                              <span class="txt fw-500"
+                                >Personal information</span
+                              >
+                            </a>
+                          </div>
                         </div>
                       </div>
-
-                      <div class="my-card__balance-view mb-3">
-                        <div
-                          class="my-card__balance-view__title collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#my-card__balance-view__body"
-                        >
-                          <h4 class="mb-0">View Balance</h4>
-                          <i class="far fa-chevron-down ind-icon"></i>
-                        </div>
-                        <div
-                          class="my-card__balance-view__body collapse"
-                          id="my-card__balance-view__body"
-                        >
-                          <div class="my-card__balance-view__body__inner">
-                            <!-- m-dash-row -->
-                            <div class="m-dash-row row g-4">
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/green-dolor.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Available Balance</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <!-- m-dash__item-end -->
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/yellow-card.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Total balance</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <!-- m-dash__item-end -->
-                              <!-- m-dash__item -->
-                              <div class="col-lg-4 col-md-6">
-                                <div class="m-dash__item">
-                                  <div class="m-dash__item__icon">
-                                    <img src="images/blue-chart.svg" alt="" />
-                                  </div>
-                                  <div class="m-dash__item__tc">
-                                    <h3>$0</h3>
-                                    <h5 class="mb-0">Outstanding balance</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <!-- m-dash__item-end -->
+                      <div class="col-lg-8">
+                        <div class="profile-box-cont">
+                          <div class="profile__info-form">
+                            <div class="profile__info-form__title">
+                              <h4 class="mb-0">My Profile</h4>
                             </div>
-                            <!-- m-dash-row-end -->
+                            <div class="profile__info-form__main row g-4">
+                              <div class="col-md-6">
+                                <div class="single-input-x">
+                                  <label class="label-x">Username</label>
+                                  <div class="input-x-outer">
+                                    <input
+                                      type="text"
+                                      class="input-x"
+                                      value="Liseth E"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="single-input-x">
+                                  <label class="label-x">Email</label>
+                                  <div class="input-x-outer">
+                                    <input
+                                      type="text"
+                                      class="input-x"
+                                      value="espinosalisethlorena2811@gmail.com"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="single-input-x">
+                                  <label class="label-x">Telephone</label>
+                                  <div class="input-x-outer">
+                                    <input
+                                      type="text"
+                                      class="input-x"
+                                      value="+573022406684"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="single-input-x">
+                                  <label class="label-x">Address</label>
+                                  <div class="input-x-outer">
+                                    <input
+                                      type="text"
+                                      class="input-x"
+                                      value="Lorena123"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="single-input-x">
+                                  <label class="label-x">Status</label>
+                                  <div class="input-x-outer">
+                                    <input
+                                      type="text"
+                                      class="input-x"
+                                      value="User"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-
-                      <h4 class="fw-400">IdPlastico: 25305</h4>
-
-                      <div class="my-card__bottom">
-                        <div class="my-card__bt-buttons">
-                          <a href="#" class="default-button button"
-                            >View Settled Transaction</a
-                          >
-                          <a
-                            href="#"
-                            class="default-button button default-button--bordered"
-                            >View Floating Transaction</a
-                          >
                         </div>
                       </div>
                     </div>
-                    <!-- my-card__wrapper-end -->
+                    <!-- profile__row-end -->
                   </div>
                 </div>
                 <!-- main__body-end -->

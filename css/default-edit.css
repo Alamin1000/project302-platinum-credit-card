@@ -36,6 +36,42 @@
     background: var(--theme__color1);
     color: #fff;
 }
+
+.default-button--s-icon {
+    padding: 10px 16px;
+    gap: 13px;
+    justify-content: flex-start;
+}
+.default-button--s-icon .icon {
+    height: 24px;
+    width: 24px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    color: var(--theme__color1);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.default-button--s-icon.default-button--light .icon {
+    background: var(--theme__color1);
+    color: #fff;
+}
+.default-button--s-icon.default-button--light:hover .icon {
+    background: #fff;
+    color: var(--theme__color1);
+}
+
+
+.default-button--n-icon {
+    gap: 15px;
+    align-items: center;
+}
+.default-button--n-icon i {
+    font-size: 18px;
+}
 /* ---buttons---end */
 
 /* checkbox-switch */
