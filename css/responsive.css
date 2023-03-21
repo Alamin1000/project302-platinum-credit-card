@@ -47,6 +47,32 @@
         font-size: 12px;
         border-radius: 8px;
     }
+
+
+    .overview-chart__title h4 {
+        font-size: 16px;
+    }
+    .input-x.nice-select.sml-use {
+        font-size: 12px;
+        width: 79px;
+        min-height: 28px;
+        border-radius: 2px;
+        padding: 6px;
+    }
+    .input-x.nice-select::after {
+        height: 5px;
+        width: 5px;
+        margin-top: -7px;
+        border-width: 1px;
+        right: 10px;
+    }
+    .overview-chart__box {
+        padding: 17px 15px;
+        border-radius: 12px;
+    }
+    .overview-chart__title {
+        margin: 0 0 20px;
+    }
 }
 
 
@@ -204,6 +230,71 @@
         font-size: 12px;
         padding: 5px 16px;
     }
+    .input-x.nice-select.sml-use::after {
+        margin-top: -3px;
+    }
+
+    .dash-3-welcome__left h2 {
+        font-size: 24px;
+        margin: 0 0 6px 0;
+    }
+    .dash-3-welcome__left p {
+        font-size: 14px;
+        margin: 0 0 0 3px;
+    }
+    .dash-3-welcome__bln {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        padding: 15px 15px;
+    }
+    .dash-3-welcome__bln .left {
+        text-align: center;
+    }
+    .dash-3-welcome__bln .left h3 {
+        font-size: 24px;
+        margin: 0 0 6px;
+    }
+    .dash-3-welcome__bln .left p {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .market-dash__title h4 {
+        font-size: 16px;
+    }
+    .market-dash__item__icon {
+        height: 36px;
+        width: 36px;
+    }
+    .market-dash__item__tc h3 {
+        font-size: 14px;
+        margin: 0 0 4px;
+    }
+    .market-dash__item__tc h3 .sm {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .market-dash__item__tc h4 {
+        font-size: 10px;
+        margin: 0;
+    }
+    .market-dash__item__tc h4 [class*="st"] {
+        font-weight: 400;
+        margin-left: 2px;
+        font-size: 8px;
+    }
+    .market-dash__item {
+        padding: 11px 10px;
+        gap: 7px;
+        --i-border-width: 5px;
+        border-radius: 15px;
+        border-radius: 8px;
+    }
+    .market-dash__title {
+        margin: 0 0 14px;
+    }
 }
 
 
@@ -243,4 +334,52 @@
         padding: 18px 15px;
         border-radius: 10px;
     }
+
+
+    .coin-dash__tp__icon {
+        width: 45px;
+        height: 45px;
+    }
+    .coin-dash {
+        padding: 18px 14px;
+    }
+    .coin-dash__tp {
+        gap: 15px;
+    }
+    .coin-dash__tp__tc h3 {
+        font-size: 25px;
+        margin: 0 0 10px
+    }
+    .coin-dash__tp__tc p {
+        font-size: 14px;
+    }
+    .coin-dash__chart {
+        height: 65px;
+        margin-top: 15px;
+    }
+    .coin-dash__state {
+        margin-top: 12px;
+    }
+    .coin-dash__state__p {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .coin-dash__state h3 {
+        font-size: 24px;
+    }
+    .overview-chart__title h4 {
+        font-size: 13px;
+    }
+    .overview-chart__title .rang {
+        font-size: 11px;
+        gap: 6px;
+    }
+    .input-x.nice-select.sml-use::after {
+        margin-top: -3px;
+    }
+
+    .market-dash__item__row [class*="col-"] {
+        width: 100%;
+    }
+
 }
