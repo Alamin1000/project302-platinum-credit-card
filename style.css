@@ -605,6 +605,7 @@ p:last-child{
   top: 50%;
   right: 12px;
   transform: translate(0,-50%);
+  z-index: 5;
 }
 .number-pre-select {
   gap: 6px;
@@ -705,6 +706,24 @@ p:last-child{
 }
 .m-currency-ul li a .txt {
 
+}
+
+
+.iti__flag {background-image: url("images/flags.png");}
+.iti {
+  width: 100%;
+}
+.iti--separate-dial-code .iti__selected-flag {
+  border-right: 1px solid #D0D5DD;
+  border-radius: 8px 0 0 8px;
+  background: rgba(1, 111, 185, 0.1);
+}
+.iti__country-list {
+  /* width:300px; */
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+	margin-left: 8px;
+	font-size: 14px;
 }
 /* ---single-input-x---end */
 
@@ -1511,3 +1530,5 @@ p:last-child{
   color: #28B446;
 }
 /* ---market-dash---end */
+
+

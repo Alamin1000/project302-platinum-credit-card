@@ -11,6 +11,7 @@
     <link rel="icon" href="images/fav.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/intlTelInput.css" />
     <link
       href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
       rel="stylesheet"
@@ -98,6 +99,23 @@
                             <div class="right-icon">
                               <i class="far fa-mobile"></i>
                             </div>
+
+                            <input
+                              id="mobile_code"
+                              type="text"
+                              class="input-x"
+                              placeholder="number"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="col-12">
+                        <div class="single-input-x">
+                          <label class="label-x">Mobile Number</label>
+                          <div class="input-x-outer">
+                            <div class="right-icon">
+                              <i class="far fa-mobile"></i>
+                            </div>
                             <div class="number-pre-select">
                               <div class="f-image">
                                 <img src="images/us.png" alt="" />
@@ -114,7 +132,7 @@
                             />
                           </div>
                         </div>
-                      </div>
+                      </div> -->
 
                       <div class="col-6">
                         <div class="single-input-x">
@@ -239,7 +257,14 @@
     <script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/intlTelInput.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      $("#mobile_code").intlTelInput({
+        initialCountry: "us",
+        separateDialCode: true,
+      });
+    </script>
     <!-- End All Js -->
   </body>
 </html>
